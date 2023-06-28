@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
                    DESC
-
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.homepage     = "https://github.com/lxTeamDevs/LXDevkit.git"
   s.source       = { :git => "https://github.com/lxTeamDevs/LXDevkit.git", 
 			:tag => "#{s.version}" }
@@ -32,7 +32,7 @@ This CocoaPods library helps you perform calculation.
  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   #spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
 
 
   # spec.platform     = :ios
@@ -55,7 +55,7 @@ This CocoaPods library helps you perform calculation.
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "LXDevkitNetworkLayer/**/*.{h,m,swift}"
+  s.source_files  = "LXDevkitExtensions/**/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
