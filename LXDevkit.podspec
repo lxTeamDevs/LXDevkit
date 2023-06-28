@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "LXDevkit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of LXDevkit."
   spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
