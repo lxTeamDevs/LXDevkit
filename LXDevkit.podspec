@@ -20,10 +20,10 @@ This CocoaPods library helps you perform calculation.
 
   spec.source_files  = "LXDevkitExtensions/**/*.{h,m,swift}"
 
-  spec.subspec "LXDevkitNetworkLayer" do |ss|
-    ss.ios.deployment_target = '12.1'
-    ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
+  #spec.subspec "LXDevkitNetworkLayer" do |ss|
+  #  ss.ios.deployment_target = '12.1'
+  #  ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
 
-  end
+  #end
 
 end
