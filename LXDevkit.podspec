@@ -24,6 +24,6 @@ This CocoaPods library helps you perform calculation.
     ss.ios.deployment_target = '12.1'
     ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
 
-  #end
+  end
 
 end
