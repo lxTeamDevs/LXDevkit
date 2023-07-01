@@ -15,7 +15,6 @@
 		4909EA2C2A5072AC0007E272 /* LXDevkitNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF6B432A4AC3410088BB95 /* LXDevkitNetworkLayer.swift */; };
 		4909EA2D2A5072AF0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA222A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift */; };
 		4909EA2E2A5072B20007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA242A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift */; };
-		4909EA2F2A5074500007E272 /* ExampleRepoTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA282A5066E10007E272 /* ExampleRepoTargetType.swift */; };
 		4909EA312A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */; };
 		4909EA322A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */; };
 		C33C9DE33C0954A4563E171E /* Pods_LXDevkitNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B13ADD59B06ED25D003594 /* Pods_LXDevkitNetworkLayer.framework */; };
@@ -35,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		496024512A50CC4400C780E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB1EE992A49C79000DB4523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB1EEA12A49C79000DB4523;
+			remoteInfo = LXDevkitNetworkLayer;
+		};
 		CEB1EEAE2A49C79000DB4523 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEB1EE992A49C79000DB4523 /* Project object */;
@@ -254,6 +260,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				496024522A50CC4400C780E3 /* PBXTargetDependency */,
 			);
 			name = LXDevkitNetworkLayerExample;
 			productName = LXDevkitNetworkLayerExample;
@@ -439,7 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4909EA252A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */,
-				4909EA2F2A5074500007E272 /* ExampleRepoTargetType.swift in Sources */,
 				4909EA232A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */,
 				CEBF6B442A4AC3410088BB95 /* LXDevkitNetworkLayer.swift in Sources */,
 				4909EA312A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */,
@@ -475,6 +481,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		496024522A50CC4400C780E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB1EEA12A49C79000DB4523 /* LXDevkitNetworkLayer */;
+			targetProxy = 496024512A50CC4400C780E3 /* PBXContainerItemProxy */;
+		};
 		CEB1EEAF2A49C79000DB4523 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CEB1EEA12A49C79000DB4523 /* LXDevkitNetworkLayer */;
