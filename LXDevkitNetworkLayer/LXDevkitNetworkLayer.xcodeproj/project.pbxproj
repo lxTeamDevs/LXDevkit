@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4909EA232A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA222A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift */; };
+		4909EA252A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA242A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift */; };
+		4909EA272A5065260007E272 /* ExampleRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA262A5065260007E272 /* ExampleRepo.swift */; };
+		4909EA292A5066E10007E272 /* ExampleRepoTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA282A5066E10007E272 /* ExampleRepoTargetType.swift */; };
+		4909EA2B2A5068A10007E272 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA2A2A5068A10007E272 /* ExampleModel.swift */; };
+		4909EA2C2A5072AC0007E272 /* LXDevkitNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF6B432A4AC3410088BB95 /* LXDevkitNetworkLayer.swift */; };
+		4909EA2D2A5072AF0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA222A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift */; };
+		4909EA2E2A5072B20007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA242A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift */; };
+		4909EA2F2A5074500007E272 /* ExampleRepoTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA282A5066E10007E272 /* ExampleRepoTargetType.swift */; };
+		4909EA312A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */; };
+		4909EA322A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */; };
+		C33C9DE33C0954A4563E171E /* Pods_LXDevkitNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B13ADD59B06ED25D003594 /* Pods_LXDevkitNetworkLayer.framework */; };
 		CEB1EEA72A49C79000DB4523 /* LXDevkitNetworkLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = CEB1EEA62A49C79000DB4523 /* LXDevkitNetworkLayer.docc */; };
 		CEB1EEAD2A49C79000DB4523 /* LXDevkitNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB1EEA22A49C79000DB4523 /* LXDevkitNetworkLayer.framework */; };
 		CEB1EEB22A49C79000DB4523 /* LXDevkitNetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1EEB12A49C79000DB4523 /* LXDevkitNetworkLayerTests.swift */; };
@@ -17,7 +29,9 @@
 		CEB1EECA2A49C7A000DB4523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EEC82A49C7A000DB4523 /* Main.storyboard */; };
 		CEB1EECC2A49C7A100DB4523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EECB2A49C7A100DB4523 /* Assets.xcassets */; };
 		CEB1EECF2A49C7A100DB4523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EECD2A49C7A100DB4523 /* LaunchScreen.storyboard */; };
-		CEBF6B442A4AC3410088BB95 /* ExampleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */; };
+		CEBF6B442A4AC3410088BB95 /* LXDevkitNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF6B432A4AC3410088BB95 /* LXDevkitNetworkLayer.swift */; };
+		E2F7F9A89A5C9E5A5399918F /* Pods_LXDevkitNetworkLayerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3C4CF036E02D997E4E4B01 /* Pods_LXDevkitNetworkLayerExample.framework */; };
+		F02672E9F6D4C7103E27DE5A /* Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5641CC996EAF1B9071582A3 /* Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B13ADD59B06ED25D003594 /* Pods_LXDevkitNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDevkitNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290D3FCD3C862D616CF5C06 /* Pods-LXDevkitNetworkLayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayerExample.release.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayerExample/Pods-LXDevkitNetworkLayerExample.release.xcconfig"; sourceTree = "<group>"; };
+		46F1F490D2FB77B6BDD1BD30 /* Pods-LXDevkitNetworkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayer.release.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayer/Pods-LXDevkitNetworkLayer.release.xcconfig"; sourceTree = "<group>"; };
+		4909EA222A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDevkitNetworkLayerTargetType.swift; sourceTree = "<group>"; };
+		4909EA242A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDevkitNetworkLayerBaseRepository.swift; sourceTree = "<group>"; };
+		4909EA262A5065260007E272 /* ExampleRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRepo.swift; sourceTree = "<group>"; };
+		4909EA282A5066E10007E272 /* ExampleRepoTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRepoTargetType.swift; sourceTree = "<group>"; };
+		4909EA2A2A5068A10007E272 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDevkitNetworkLayerError.swift; sourceTree = "<group>"; };
+		562E781651384001031D399D /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.debug.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B3C4CF036E02D997E4E4B01 /* Pods_LXDevkitNetworkLayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDevkitNetworkLayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749DEA584E0F7FACE2803166 /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.release.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		78FFA56A1D0C41C743759850 /* Pods-LXDevkitNetworkLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayer.debug.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayer/Pods-LXDevkitNetworkLayer.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E4786937AE3E5232791AB3 /* Pods-LXDevkitNetworkLayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDevkitNetworkLayerExample.debug.xcconfig"; path = "Target Support Files/Pods-LXDevkitNetworkLayerExample/Pods-LXDevkitNetworkLayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C5641CC996EAF1B9071582A3 /* Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB1EEA22A49C79000DB4523 /* LXDevkitNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXDevkitNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB1EEA52A49C79000DB4523 /* LXDevkitNetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXDevkitNetworkLayer.h; sourceTree = "<group>"; };
 		CEB1EEA62A49C79000DB4523 /* LXDevkitNetworkLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LXDevkitNetworkLayer.docc; sourceTree = "<group>"; };
@@ -44,7 +73,7 @@
 		CEB1EECB2A49C7A100DB4523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1EECE2A49C7A100DB4523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB1EED02A49C7A100DB4523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFile.swift; sourceTree = "<group>"; };
+		CEBF6B432A4AC3410088BB95 /* LXDevkitNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXDevkitNetworkLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33C9DE33C0954A4563E171E /* Pods_LXDevkitNetworkLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB1EEAD2A49C79000DB4523 /* LXDevkitNetworkLayer.framework in Frameworks */,
+				F02672E9F6D4C7103E27DE5A /* Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F7F9A89A5C9E5A5399918F /* Pods_LXDevkitNetworkLayerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2083C7A071F347AB083EE22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B13ADD59B06ED25D003594 /* Pods_LXDevkitNetworkLayer.framework */,
+				C5641CC996EAF1B9071582A3 /* Pods_LXDevkitNetworkLayer_LXDevkitNetworkLayerTests.framework */,
+				5B3C4CF036E02D997E4E4B01 /* Pods_LXDevkitNetworkLayerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0710EB4FDDA0F9643B1D82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78FFA56A1D0C41C743759850 /* Pods-LXDevkitNetworkLayer.debug.xcconfig */,
+				46F1F490D2FB77B6BDD1BD30 /* Pods-LXDevkitNetworkLayer.release.xcconfig */,
+				562E781651384001031D399D /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.debug.xcconfig */,
+				749DEA584E0F7FACE2803166 /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.release.xcconfig */,
+				A1E4786937AE3E5232791AB3 /* Pods-LXDevkitNetworkLayerExample.debug.xcconfig */,
+				4290D3FCD3C862D616CF5C06 /* Pods-LXDevkitNetworkLayerExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEB1EE982A49C79000DB4523 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +135,8 @@
 				CEB1EEB02A49C79000DB4523 /* LXDevkitNetworkLayerTests */,
 				CEB1EEC12A49C7A000DB4523 /* LXDevkitNetworkLayerExample */,
 				CEB1EEA32A49C79000DB4523 /* Products */,
+				9D0710EB4FDDA0F9643B1D82 /* Pods */,
+				2083C7A071F347AB083EE22C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +153,12 @@
 		CEB1EEA42A49C79000DB4523 /* LXDevkitNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				CEBF6B432A4AC3410088BB95 /* LXDevkitNetworkLayer.swift */,
+				4909EA222A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift */,
+				4909EA242A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift */,
+				4909EA302A50BC590007E272 /* LXDevkitNetworkLayerError.swift */,
 				CEB1EEA52A49C79000DB4523 /* LXDevkitNetworkLayer.h */,
 				CEB1EEA62A49C79000DB4523 /* LXDevkitNetworkLayer.docc */,
-				CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */,
 			);
 			path = LXDevkitNetworkLayer;
 			sourceTree = "<group>";
@@ -121,6 +181,9 @@
 				CEB1EECB2A49C7A100DB4523 /* Assets.xcassets */,
 				CEB1EECD2A49C7A100DB4523 /* LaunchScreen.storyboard */,
 				CEB1EED02A49C7A100DB4523 /* Info.plist */,
+				4909EA262A5065260007E272 /* ExampleRepo.swift */,
+				4909EA282A5066E10007E272 /* ExampleRepoTargetType.swift */,
+				4909EA2A2A5068A10007E272 /* ExampleModel.swift */,
 			);
 			path = LXDevkitNetworkLayerExample;
 			sourceTree = "<group>";
@@ -143,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB1EEB62A49C79000DB4523 /* Build configuration list for PBXNativeTarget "LXDevkitNetworkLayer" */;
 			buildPhases = (
+				4281D4FC9CD8D3B4310F0299 /* [CP] Check Pods Manifest.lock */,
 				CEB1EE9D2A49C79000DB4523 /* Headers */,
 				CEB1EE9E2A49C79000DB4523 /* Sources */,
 				CEB1EE9F2A49C79000DB4523 /* Frameworks */,
@@ -161,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB1EEB92A49C79000DB4523 /* Build configuration list for PBXNativeTarget "LXDevkitNetworkLayerTests" */;
 			buildPhases = (
+				7F753960003BBF1EE5726725 /* [CP] Check Pods Manifest.lock */,
 				CEB1EEA82A49C79000DB4523 /* Sources */,
 				CEB1EEA92A49C79000DB4523 /* Frameworks */,
 				CEB1EEAA2A49C79000DB4523 /* Resources */,
+				B22C497DCA7C62513C1BCFA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB1EED12A49C7A100DB4523 /* Build configuration list for PBXNativeTarget "LXDevkitNetworkLayerExample" */;
 			buildPhases = (
+				B7378492E3A08E104DB16295 /* [CP] Check Pods Manifest.lock */,
 				CEB1EEBC2A49C7A000DB4523 /* Sources */,
 				CEB1EEBD2A49C7A000DB4523 /* Frameworks */,
 				CEB1EEBE2A49C7A000DB4523 /* Resources */,
+				E6A7F1DB485C0691F68F18D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,8 +267,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LXDevkit;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = LXTeamDevs;
 				TargetAttributes = {
 					CEB1EEA12A49C79000DB4523 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -260,12 +330,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4281D4FC9CD8D3B4310F0299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDevkitNetworkLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F753960003BBF1EE5726725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B22C497DCA7C62513C1BCFA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests/Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7378492E3A08E104DB16295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDevkitNetworkLayerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A7F1DB485C0691F68F18D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayerExample/Pods-LXDevkitNetworkLayerExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayerExample/Pods-LXDevkitNetworkLayerExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXDevkitNetworkLayerExample/Pods-LXDevkitNetworkLayerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEB1EE9E2A49C79000DB4523 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBF6B442A4AC3410088BB95 /* ExampleFile.swift in Sources */,
+				4909EA252A505F1E0007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */,
+				4909EA2F2A5074500007E272 /* ExampleRepoTargetType.swift in Sources */,
+				4909EA232A505E8C0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */,
+				CEBF6B442A4AC3410088BB95 /* LXDevkitNetworkLayer.swift in Sources */,
+				4909EA312A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */,
 				CEB1EEA72A49C79000DB4523 /* LXDevkitNetworkLayer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,9 +459,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4909EA2E2A5072B20007E272 /* LXDevkitNetworkLayerBaseRepository.swift in Sources */,
 				CEB1EEC72A49C7A000DB4523 /* ViewController.swift in Sources */,
+				4909EA322A50BC590007E272 /* LXDevkitNetworkLayerError.swift in Sources */,
+				4909EA292A5066E10007E272 /* ExampleRepoTargetType.swift in Sources */,
+				4909EA2D2A5072AF0007E272 /* LXDevkitNetworkLayerTargetType.swift in Sources */,
+				4909EA2B2A5068A10007E272 /* ExampleModel.swift in Sources */,
 				CEB1EEC32A49C7A000DB4523 /* AppDelegate.swift in Sources */,
+				4909EA272A5065260007E272 /* ExampleRepo.swift in Sources */,
 				CEB1EEC52A49C7A000DB4523 /* SceneDelegate.swift in Sources */,
+				4909EA2C2A5072AC0007E272 /* LXDevkitNetworkLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +624,7 @@
 		};
 		CEB1EEB72A49C79000DB4523 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FFA56A1D0C41C743759850 /* Pods-LXDevkitNetworkLayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -470,6 +655,7 @@
 		};
 		CEB1EEB82A49C79000DB4523 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F1F490D2FB77B6BDD1BD30 /* Pods-LXDevkitNetworkLayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -500,6 +686,7 @@
 		};
 		CEB1EEBA2A49C79000DB4523 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562E781651384001031D399D /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +703,7 @@
 		};
 		CEB1EEBB2A49C79000DB4523 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749DEA584E0F7FACE2803166 /* Pods-LXDevkitNetworkLayer-LXDevkitNetworkLayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +720,7 @@
 		};
 		CEB1EED22A49C7A100DB4523 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E4786937AE3E5232791AB3 /* Pods-LXDevkitNetworkLayerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -559,6 +748,7 @@
 		};
 		CEB1EED32A49C7A100DB4523 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4290D3FCD3C862D616CF5C06 /* Pods-LXDevkitNetworkLayerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

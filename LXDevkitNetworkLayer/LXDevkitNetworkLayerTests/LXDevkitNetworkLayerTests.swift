@@ -3,7 +3,7 @@
 //  LXDevkitNetworkLayerTests
 //
 //  Created by Artak Gevorgyan on 26.06.23.
-//
+//  Copyright © 2023 LXTeamDevs. All rights reserved.
 
 import XCTest
 @testable import LXDevkitNetworkLayer
