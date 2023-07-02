@@ -23,6 +23,8 @@ This CocoaPods library helps you perform calculation.
   spec.subspec "LXDevkitNetworkLayer" do |ss|
     ss.ios.deployment_target = '12.1'
     ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
+    ss.dependency "Alamofire"
+    ss.dependency "SwiftyJSON"
 
   end
 

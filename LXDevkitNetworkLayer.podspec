@@ -19,5 +19,7 @@ This CocoaPods library helps you perform calculation.
   
 
   spec.source_files  = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
+  spec.dependency "Alamofire"
+  spec.dependency "SwiftyJSON"
 
 end
