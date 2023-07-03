@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "4.2"
   spec.name         = "LXDevkitNetworkLayer"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of LXDevkitNetworkLayer."
   spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
