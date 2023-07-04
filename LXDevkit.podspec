@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "4.2"
   spec.name         = "LXDevkit"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.6"
   spec.summary      = "A short description of LXDevkit."
   spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
@@ -14,12 +14,12 @@ This CocoaPods library helps you perform calculation.
   spec.source       = { :git => "https://github.com/lxTeamDevs/LXDevkit.git", :tag => "#{spec.version}" }
   spec.source_files  = "LXDevkitExtensions/**/*.{h,m,swift}"
 
-  #spec.subspec "LXDevkitNetworkLayer" do |ss|
-  #  ss.ios.deployment_target = '12.1'
-  #  ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
-  #  ss.dependency "Alamofire"
-  #  ss.dependency "SwiftyJSON"
+  spec.subspec "LXDevkitNetworkLayer" do |ss|
+    ss.ios.deployment_target = '12.1'
+    ss.source_files = "LXDevkitNetworkLayer/LXDevkitNetworkLayer/**/*.{h,m,swift}"
+    ss.dependency "Alamofire"
+    ss.dependency "SwiftyJSON"
 
-  #end
+  end
 
 end
